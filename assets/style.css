@@ -1,0 +1,51 @@
+/* assets/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  
+  header, footer {
+    background-color: #f4f4f4;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  article {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+  
+  article h2 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  article a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0066cc;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
