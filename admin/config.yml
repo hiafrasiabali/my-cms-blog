@@ -1,11 +1,13 @@
 backend:
   name: git-gateway
-  branch: main # Change to your main branch name
+  branch: main
 
-media_folder: "assets/uploads" # Where images, etc. are stored
-public_folder: "/assets/uploads"
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
 publish_mode: editorial_workflow
+
+identity_url: "https://my-cms-blog.netlify.app"
 
 collections:
   - name: "blog"
