@@ -1,13 +1,11 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main  # Ensure this matches your GitHub default branch (main or master)
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "assets/uploads"  # Folder in your repo where uploads are stored
+public_folder: "/assets/uploads"  # Public URL path to uploads
 
 publish_mode: editorial_workflow
-
-identity_url: "https://my-cms-blog.netlify.app"
 
 collections:
   - name: "blog"
